@@ -1,6 +1,6 @@
 # structured-programming-practice
 
-## students name: kamwine collins
+## students name: kamwine collins , B39055
 ## course : CS Structured programming
 ## submission date: 29 september 2026
 
