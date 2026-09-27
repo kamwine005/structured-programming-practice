@@ -10,3 +10,7 @@ source : Dietel & Dietel, C How to program , 9th Editon , Chapter 2, Exercise 2.
 what the program does : Displays a simple greeting and some biodata about me using single printf statements.
 concepts used : printf, escape sequences (\n)
 How it works : The program calls printf multiple times to print row of characters containing that info,mation
+## exercise 2-input process output 
+source : Dietel & Dietel, C how to program , 9th edition , chapter 2, exercise 2.16, page 134
+what the program does : accepts raw input data such as student grades, performs structured operations on the data and presents clear formatted results to the user
+concepts used:
