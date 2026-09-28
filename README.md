@@ -15,4 +15,10 @@ source : Dietel & Dietel, C how to program , 9th edition , chapter 2, exercise 2
 what the program does : accepts raw input data such as student grades, performs structured operations on the data and presents clear formatted results to the user
 concepts used:`printf`, string literals, escape sequence `\n`.
 How it works: The program has no variables and reads no input. Each `printf` call prints one line, and `\n` moves the cursor to the next line, so the output appears in the same order as the statements.
+## exercise 3-decisions
+source: dietel & dietel, c How to program , 9th Edition,chapter 2, exercise 2.22 ,page 134 
+What the program does: Reads an integer and displays whether it is odd or even.
 
+Concepts used: `if...else`, remainder operator `%`, equality operator `==`.
+
+How it works: Any multiple of 2 leaves a remainder of 0 when divided by 2. The program checks `number % 2 == 0`. If that is true the number is even, otherwise it is odd.
