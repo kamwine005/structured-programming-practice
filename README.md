@@ -13,4 +13,6 @@ How it works : The program calls printf multiple times to print row of character
 ## exercise 2-input process output 
 source : Dietel & Dietel, C how to program , 9th edition , chapter 2, exercise 2.16, page 134
 what the program does : accepts raw input data such as student grades, performs structured operations on the data and presents clear formatted results to the user
-concepts used:
+concepts used:`printf`, string literals, escape sequence `\n`.
+How it works: The program has no variables and reads no input. Each `printf` call prints one line, and `\n` moves the cursor to the next line, so the output appears in the same order as the statements.
+
