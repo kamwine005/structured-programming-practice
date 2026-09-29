@@ -30,5 +30,10 @@ source: Dietel & Dietel, c How to program , 9th Edition ,Chapter 4, exercise 4.1
 what the progam does : uses a counter_controlled for loop to step through every whole number celsius temperature from 30 to 50 inclusive . On each iteration it converts the current celsisus value to Fahrenheit using the formula: F= 9/5 *c +32 and prints both values as a row in atwo column table
 concepts used: for loops (counter - controlled repetition) printf with tab- separated columns and formatted floats ,loop bounds(celsius < = 50)
 how the program works: Each time through the loop , C computes one Fahrenheit value and prints one line- celsisus and Fahrenheit side by side. After 21 iterations (30 through 50), you get the full table 
+## exercise 6-loop input
+source : Dietel & Dietel , C How to program , 9th Edition , Chapter 4 , exercise 3.17, pg 177
+What the program does: Reads the principal, interest rate and term in days for several loans and displays the simple interest for each. The user enters -1 as the principal to stop.
+Concepts used: `while` loop, sentinel value, `scanf` inside a loop, arithmetic.
+How it works: The principal is read once before the loop. While it is not -1, the program reads the rate and days, calculates `interest = principal * rate * days / 365` and prints it. It then reads the next principal at the bottom of the loop, so the sentinel is checked again on every repeat.
 
 
