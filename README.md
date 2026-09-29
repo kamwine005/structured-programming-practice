@@ -35,5 +35,10 @@ source : Dietel & Dietel , C How to program , 9th Edition , Chapter 4 , exercise
 What the program does: Reads the principal, interest rate and term in days for several loans and displays the simple interest for each. The user enters -1 as the principal to stop.
 Concepts used: `while` loop, sentinel value, `scanf` inside a loop, arithmetic.
 How it works: The principal is read once before the loop. While it is not -1, the program reads the rate and days, calculates `interest = principal * rate * days / 365` and prints it. It then reads the next principal at the bottom of the loop, so the sentinel is checked again on every repeat.
+## exercise 7- loop decision
+Source: Deitel & Deitel, *C How to Program*, 9th Edition, Chapter 4, Exercise 4.17 (Calculating Credit Limits), p. 225.
+What the program does: For three customers, reads the account number, the credit limit before the recession and the current balance. It calculates the new limit (half of the old one), prints it, and reports whether the balance exceeds it. It also counts how many customers are over their limit.
+Concepts used: `for` loop, `if...else` inside a loop, counter variable, arithmetic.
+How it works: The loop runs three times, once per customer. Each time, `newCreditLimit = oldCreditLimit / 2`. An `if...else` compares `balance` with `newCreditLimit`. If the balance is higher, a warning is printed and `overLimitCount` goes up by 1. The final count is printed after the loop. 
 
 
