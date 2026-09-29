@@ -18,7 +18,11 @@ How it works: The program has no variables and reads no input. Each `printf` cal
 ## exercise 3-decisions
 source: dietel & dietel, c How to program , 9th Edition,chapter 2, exercise 2.22 ,page 134 
 What the program does: Reads an integer and displays whether it is odd or even.
-
 Concepts used: `if...else`, remainder operator `%`, equality operator `==`.
-
 How it works: Any multiple of 2 leaves a remainder of 0 when divided by 2. The program checks `number % 2 == 0`. If that is true the number is even, otherwise it is odd.
+## exercise 4- basic loop
+source :dietel & dietel , c How to program , 9th Edition, chapter 3 , exercise 3.24
+What the program does: Prints the odd numbers 1, 3, 5, 7, 9, 11 and 13.
+Concepts used: `for` loop, integer variable, `printf`.
+How it works: The loop starts at `n = 1` and runs while `n <= 13`. After each pass it adds 2 to `n` instead of 1, so it only ever visits odd numbers.
+
