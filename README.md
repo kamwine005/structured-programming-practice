@@ -40,5 +40,10 @@ Source: Deitel & Deitel, *C How to Program*, 9th Edition, Chapter 4, Exercise 4.
 What the program does: For three customers, reads the account number, the credit limit before the recession and the current balance. It calculates the new limit (half of the old one), prints it, and reports whether the balance exceeds it. It also counts how many customers are over their limit.
 Concepts used: `for` loop, `if...else` inside a loop, counter variable, arithmetic.
 How it works: The loop runs three times, once per customer. Each time, `newCreditLimit = oldCreditLimit / 2`. An `if...else` compares `balance` with `newCreditLimit`. If the balance is higher, a warning is printed and `overLimitCount` goes up by 1. The final count is printed after the loop. 
+## exercise 8- interactive Console program
+Source: Deitel & Deitel, C How to Program, 9th Edition, Chapter 4, Exercise 4.19, page 226.
+ What the program does: An online retailer sells five products at fixed prices. The user repeatedly enters a product number and the quantity sold; the program looks up the price with a switch statement, adds the line total to a running total, and stops when 0 is entered, then prints the total retail value of all sales.
+ Concepts used: switch multiple-selection statement, sentinel-controlled while loop, continue, accumulator variable.
+ How it works: A priming read gets the first product number. While it isn't 0, a switch picks the price for the given product (or, for an invalid number, prints an error and uses continue to skip straight to the next read). Otherwise the quantity is read, price * quantity is added to total, and the next product number is read at the bottom of the loop. After the loop ends, the total is printed.
 
 
